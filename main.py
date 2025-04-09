@@ -5,18 +5,10 @@ def main():
     for i in range(len(numbers)):
         numbers[i] = int(input('Enter a value: '))
 
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
-
-    # total = sum(numbers)
+    total = sum(numbers)
+    
     print(total)
-
-    ########################################
-    # Do not delete the return statement
-    ########################################
+    
     return total, numbers
 
 
